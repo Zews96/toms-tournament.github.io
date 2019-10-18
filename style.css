@@ -1,0 +1,6 @@
+header.header {
+	background-image: url ("img/headback.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px 0 175px;
+}
