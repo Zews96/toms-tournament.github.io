@@ -1,0 +1,134 @@
+html {
+	background:#fff url(../images/back.jpg) no-repeat center center fixed;
+	min-height:100%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+body {
+	background:transparent;
+	min-height:100%;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	line-height: 1.5em;
+	font-size:14px;
+	font-family: Helvetica, Arial, sans-serif;
+	color:#fff;
+	color:rgba(255,255,255,.8);
+	font-weight: normal;
+}
+
+.section {
+	z-index: 1;
+	min-height:420px;
+	width: 100%;
+	overflow:auto;
+	height:100%;
+	padding-top:50px;
+	padding-bottom:50px;
+	display:none;
+	top:0;
+}
+@media (min-width: 768px) {
+	.section { padding-top:80px;}
+}
+
+#head {
+	display: block;
+}
+
+a { color:#fff; text-decoration: none; }
+a:hover, a:active { color:#fff; text-decoration: underline; }
+
+h1 {
+  background-image: url(" ../images/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+   overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.title {
+font-size:12em;
+margin-bottom:30px;
+}
+
+.subtitle {
+	font-weight:bold;
+	font-size:1.8em;
+	font-family: 'Vollkorn', serif;
+	margin-bottom:40px;
+	color:#FDF9F4;
+	line-height:2em;
+}
+
+.subtitle2-part1 {
+	font-weight:bold;
+	font-size:1.2em;
+	font-family: 'Signika', sans-serif;
+	color: #0069B9;
+	line-height:1.5em;
+	text-align: center;
+	margin-bottom:40px;
+}
+
+.subtitle2-part2 {
+	font-weight:bold;
+	font-size:1.2em;
+	font-family: 'Signika', sans-serif;
+	color: #D0BD26;
+	line-height:1.5em;
+	text-align: center;
+	margin-bottom:40px;
+}
+
+.subtitle2-part3 {
+	font-weight:bold;
+	font-size:1.2em;
+	font-family: 'Signika', sans-serif;
+	color: #D02D26;
+	line-height:1.5em;
+	text-align: center;
+	margin-bottom:40px;
+}
+
+.story {
+	font-size:1.3em;
+	font-family: 'Vollkorn', serif;
+	line-height:1.6em;
+	font-weight:normal;
+	margin-bottom:30px;
+}
+
+.writer {
+	font-size:0.9em;
+	line-height:1.5em;
+	font-weight:bold;
+	margin-bottom:30px;
+}
+
+.theme-main {
+	color:#222;
+	color:rgba(0,0,0,.8);
+ }
+.theme-main a {
+	color:#000;
+}
+
+.theme-main .title,
+.theme-main .subtitle,
+.theme-main .tagline {
+	color:#222222;
+}
+
+
+.theme-main .thumbnail {
+	background-color: rgba(255,255,255,.8);
+}
+.thumbnail .caption {
+	color: inherit;
+}
